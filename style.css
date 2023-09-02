@@ -1,0 +1,161 @@
+.list{
+    display: flex;
+     align-items: center;
+    justify-content:space-around;
+    list-style: none;
+}
+header{
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+box-shadow: border-box;
+}
+figure{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-top: 16px;
+}
+.fig{
+ height: 500px;
+ width: 850px;
+margin-bottom: 0px;
+margin-left: 135px;
+margin-top: 39px;
+}
+.figcaption{
+    margin-left: -140px;
+
+}
+img{
+margin-bottom: 12px;
+width: 250px;
+}
+#search{
+    width: 45px;
+    height: 45px;
+}
+.inputsearchbar{
+    border: none;
+    /* outline: green; */
+}
+.anotherlist{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    /* display: flex; */
+}
+.anotherlisitem{
+    
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 12px;
+list-style: none;
+}
+.listitems{
+  padding: 0px 10px;
+}
+#home{
+    margin-left: 39px;
+}
+.navlistitem:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.listitems:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.headingcontent{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(33, 32, 32);
+}
+.article{
+    margin-left: 25px;
+}
+.icons{
+    display: flex;
+ align-items: center;
+justify-content: end;
+margin-top: -17px;
+margin-right: 20px;
+}
+
+.iconsitem{
+    padding:0px 10px ;
+font-size: 30px;
+
+}
+.firstparagraph{
+    margin-left: 140px;
+    margin-top: 15px;
+    width: 750px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    color: black;
+}
+.secondparagraph{
+    margin-left: 140px;
+    margin-top: 15px;
+    width: 750px;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    font-weight:normal;  
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+.name{
+    height: 42px;
+    margin-right: 65px;
+    /* outline: none; */
+    border: none;
+    background-color: rgb(244, 240, 240);
+}
+.email{
+    height: 42px;
+    /* outline: none; */
+    border: none;
+    background-color: rgb(244, 240, 240);
+
+}
+.inputs{
+    margin-top: 13px;
+}
+.submit{
+    margin-top: 18px;
+    font-size: 13px;
+    color: red;
+}
+.secparagraph{
+    margin-top: 25px;
+    font-size: 10px;
+}
+#textarea{
+margin-top: 30px;
+border: none;
+    background-color: rgb(244, 240, 240);
+}
+.submit{
+    cursor: pointer;
+    margin-top: 10px;
+    color: black;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+}
+.navlistlink{
+    text-decoration: none;
+    color: white;
+}
